@@ -51,8 +51,7 @@ int main()
 		{   break;	}
 		else
 		{
-			std::cout << "Ошибка ввода! Повторите попытку." << std::endl;
-			continue;
+			std::cout << "Ошибка ввода! Повторите попытку." << std::endl;			
 		}
 	}
 	while (true)
