@@ -11,7 +11,7 @@ public:
 	{
 		variable = 1;
 	}
-	void set_var(int var)
+	Counter(int var)
 	{
 		variable = var;
 	}
@@ -44,7 +44,7 @@ int main()
 			int variable;
 			std::cout << "Введите начальное значение счетчика: ";
 			std::cin >> variable;
-			count.set_var(variable);
+			count = variable;
 			break;
 		}
 		else if (option1 == "нет" || option1 == "Нет" || option1 == "НЕТ")
