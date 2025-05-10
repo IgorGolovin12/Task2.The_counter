@@ -17,11 +17,11 @@ public:
 	}
 	void count_plus()
 	{
-		variable = variable++;
+		variable++;
 	}
 	void count_minus()
 	{
-		variable = variable--;
+		variable--;
 	}
 	void print_count()
 	{
@@ -44,7 +44,7 @@ int main()
 			int variable;
 			std::cout << "Введите начальное значение счетчика: ";
 			std::cin >> variable;
-			count = variable;
+			count = Counter(variable);
 			break;
 		}
 		else if (option1 == "нет" || option1 == "Нет" || option1 == "НЕТ")
